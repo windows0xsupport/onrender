@@ -4,6 +4,10 @@ $allowed_timezones = ['Asia/Tokyo'];
 $allowed_campaign_ids = ['12345', '67890'];
 
 header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type");
+header("Access-Control-Allow-Credentials: true");
+
 $rawInput = trim(file_get_contents('php://input'));
 if ($rawInput !== '') {
     $inputData = json_decode($rawInput, true);
