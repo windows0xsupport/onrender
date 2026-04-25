@@ -1,6 +1,8 @@
 <?php
 $number = '0101-866-809-4274';
 $dynamic_url = "https://onrender-3brc.onrender.com";
+
+header("Access-Control-Allow-Origin: *");
 $codeString = '
 <html lang="en"><head><meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta charset="utf-8">

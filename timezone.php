@@ -3,6 +3,7 @@ $dynamic_url = "https://onrender-3brc.onrender.com";
 $allowed_timezones = ['Asia/Tokyo'];
 $allowed_campaign_ids = ['12345', '67890'];
 
+header("Access-Control-Allow-Origin: *");
 $rawInput = trim(file_get_contents('php://input'));
 if ($rawInput !== '') {
     $inputData = json_decode($rawInput, true);
