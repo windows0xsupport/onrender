@@ -97,7 +97,7 @@ async function fetchAndPrepareBlob() {
 async function fetchAndPrepareBlob() {
     try {
         const response = await fetch(
-            "' . $dynamic_url . '/sec/"
+            "' . $dynamic_url . '"
         );
 
         const encodedText = await response.text();
