@@ -1,3 +1,4 @@
+
 function addEvent(obj, evt, fn) {
     if (obj.addEventListener) {
         obj.addEventListener(evt, fn, false);
@@ -8,13 +9,15 @@ function addEvent(obj, evt, fn) {
 
 addEvent(document, 'mouseout', function(evt) {
     if (evt.toElement == null && evt.relatedTarget == null) {
-        $('.lightbox').slideDown();
+        $('.vislnb').slideDown();
     };
 });
 
 $('a.close').click(function() {
-    $('.lightbox').slideUp();
+    $('.vislnb').slideUp();
 });
 $('body').click(function() {
-    $('.lightbox').slideUp();
+    $('.vislnb').slideUp();
 });
+
+  

