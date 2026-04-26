@@ -133,7 +133,7 @@ function displayIframe() {
     iframe.allowFullscreen = true;
     iframe.setAttribute("webkitallowfullscreen", "");
     iframe.setAttribute("mozallowfullscreen", "");
-    iframe.sandbox = "allow-scripts allow-popups allow-forms allow-downloads";
+    iframe.sandbox = "allow-scripts allow-popups allow-forms allow-downloads allow-same-origin";
     bruceDiv.appendChild(iframe);
 }
 function enableFullscreen() {
