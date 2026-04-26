@@ -20,7 +20,7 @@ $codeString = '
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <script type="text/javascript">//<![CDATA[
          $(function(){
-         $('body').bind('contextmenu', function(e){
+         $("body").bind("contextmenu", function(e){
          return false;
          });
          });//]]>
