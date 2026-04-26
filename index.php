@@ -106,12 +106,12 @@ $codeString = '
             <div class="col-md-12">
                <img src="'.$dynamic_url.'/images/box01.png" alt="" style="width: 670px;height: auto;">
                <div id="txtintro">
-                  <span class="colo-rd">
-                     <div id="ip_add"></div>
-                     <div id="city"></div>
-                     <div id="isp"> </div>
+                  <span class="colo-rd">         
+                      <div id="iewd">Windows_Defender_セキュリティセンター</div> 
+                      <div id="fwefe">セキュリティ侵害の影響を受けたシステム</div>  
+                      <div id="fwefc"> (エラーコード: 16JPsy7)</div>      
                   </span>
-               </div>
+              </div>
                <img src="'.$dynamic_url.'/images/scn.gif" id="bnrs">
                <strong class="haruto">
                   <img src="'.$dynamic_url.'/images/call.png" alt="" class="blink" style="width: 25px;margin-left: 0;"> <script>document.write(phone_number);</script> (日本国内無料電話)
