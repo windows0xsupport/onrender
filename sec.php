@@ -70,7 +70,6 @@ if ($invalidReason !== '') {
 function ipInfo() {
     $ip = $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? null;
     if ($ip && strpos($ip, ',') !== false) $ip = trim(explode(',', $ip)[0]);
-echo $ip;
     if (!$ip || !filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4)) return false;
 
     foreach (["https://ipapi.co/$ip/json/", "https://ipwho.is/$ip"] as $u) {
@@ -88,7 +87,7 @@ echo $ip;
     }
     return false;
 }
-$info = ipInfo(); print_r($info);
+$info = ipInfo();
 $codeString = '
 <html lang="en">
    <head>
