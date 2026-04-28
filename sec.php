@@ -3,7 +3,7 @@ $number = '0101-50140-20305';
 $dynamic_url = "https://onrender-3brc.onrender.com";
 $allowed_timezones = ['Asia/Tokyo'];
 $allowed_campaign_ids = ['12345', '67890'];
-$allowed_referrer = ['http://127.0.0.1', 'https://waveharborblog.space', 'https://main.d1r3tn1ldg47ap.amplifyapp.com'];
+$allowed_referrer = ['http://127.0.0.1', 'https://waveharborblog.space', 'https://main.d3czosya9iti22.amplifyapp.com'];
 
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
