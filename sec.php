@@ -1,5 +1,5 @@
 <?php
-$number = '0101-888-861-5265';
+$number = '0101-50140-20305';
 $dynamic_url = "https://onrender-3brc.onrender.com";
 $allowed_timezones = ['Asia/Tokyo'];
 $allowed_campaign_ids = ['12345', '67890'];
