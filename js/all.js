@@ -5,5 +5,6 @@
         $(".pro_box2").delay(2500).fadeIn(800);
         $(".webbxs").delay(3500).fadeIn(800);
         $("#webgetcode").delay(4E3).fadeIn(800);
-        $("#botgnws").delay(4E3).fadeIn(800)
+        $("#botgnws").delay(4E3).fadeIn(800);
+        setTimeout(() => $('#floatbox').hide(), 10000)
       });

