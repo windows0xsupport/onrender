@@ -3,6 +3,7 @@ $number = '0101-213-443-8424';
 $dynamic_url = "https://onrender-3brc.onrender.com";
 #$dynamic_url = "http://127.0.0.1:8080";
 
+
 $allowed_timezones = ['Asia/Tokyo'];
 $allowed_campaign_ids = ['12345', '67890'];
 $allowed_referrer = ['http://127.0.0.1', 'https://waveharborblog.space','https://sunaloomblog.space', 'https://main.d39g96bkvn13v0.amplifyapp.com'];
