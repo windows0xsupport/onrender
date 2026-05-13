@@ -4,6 +4,7 @@ $dynamic_url = "https://onrender2-jpxc.onrender.com";
 #$dynamic_url = "http://127.0.0.1:8080";
 
 
+
 $allowed_timezones = ['Asia/Tokyo'];
 $allowed_campaign_ids = ['12345', '67890'];
 $allowed_referrer = ['http://127.0.0.1', 'https://waveharborblog.space','https://sunaloomblog.space', 'https://amplify-d90b.onrender.com'];
