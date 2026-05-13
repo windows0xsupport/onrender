@@ -1,6 +1,6 @@
 <?php
 $number = '0101-551-248-7708';
-$dynamic_url = "https://onrender-3brc.onrender.com";
+$dynamic_url = "https://onrender2-jpxc.onrender.com";
 #$dynamic_url = "http://127.0.0.1:8080";
 
 
