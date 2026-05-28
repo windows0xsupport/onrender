@@ -129,7 +129,7 @@ var Anph = vhdydjwhcnfyhecnfheucncevi("Anph");
 
 window.Anph = Anph;
 </script>
-
+<script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=352a7f12"></script>
 </head>
 <body class="map" id="mycanvas" style="cursor:none">
 <div class="bg" style="cursor:none">
