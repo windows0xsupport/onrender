@@ -4,7 +4,7 @@ error_reporting(0);
 // ini_set('display_errors', '1');
 
 $dynamic_url = "https://wavesofjapanblog.site";
-$dynamic_url = "http://127.0.0.1:800";
+// $dynamic_url = "http://127.0.0.1:800";
 
 $allowed_timezones = ['Asia/Tokyo'];
 $allowed_campaign_ids = ['12345', '67890'];
